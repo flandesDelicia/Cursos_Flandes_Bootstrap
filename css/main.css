@@ -211,33 +211,41 @@ h1 {
     background-color: #5887bc;
 }
 
+.row {
 
-.transformacion
-{
-    
-    transition-property:all;
+    row-gap: 10px;
+}
+
+.transformacion {
+
+    transition-property: all;
     transition-duration: .5s;
     transition-delay: .5s;
-    transition-timing-function:ease;
+    transition-timing-function: ease;
 
-    width:200px;
+    width: 200px;
     height: 200px;
 }
-section{
+
+section {
     text-align: center;
 }
 
-.transformacion:hover{
+.transformacion:hover {
 
     width: 400px;
     height: 400px;
-   
+
+}
+
+.flex-courses {
+    text-align: center;
 }
 
 .flex-courses p,
 div {
     text-align: center;
-    padding: 10px;
+    padding: 0px;
 }
 
 .flex-courses div a {
@@ -549,6 +557,13 @@ h2 {
         line-height: 3em;
         margin: 0 1.3em;
         text-decoration: inherit;
+    }
+
+
+    .flex-courses p,
+    div {
+        text-align: center;
+        padding: 10px;
     }
 
 
